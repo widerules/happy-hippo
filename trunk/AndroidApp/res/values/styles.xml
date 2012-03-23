@@ -19,7 +19,7 @@
     <item name="android:background">@drawable/navbar_backgroundselector</item>
     <item name="android:gravity">center_horizontal</item>
     <item name="android:layout_weight">1</item>
-    <item name="android:textSize">12sp</item>
+    <item name="android:textSize">13sp</item>
   </style>
   <style name="navbar_bt" parent="@android:style/ButtonBar">
   </style>
