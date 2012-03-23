@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="RETRIEVE PASSWORD"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_gravity="center" />
+	<EditText android:id="@+id/etUsername" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:inputType="textPersonName"
+		android:hint="Username">
+
+		<requestFocus />
+	</EditText>
+	<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="or"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<EditText android:id="@+id/etEmail" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:inputType="textEmailAddress"
+		android:hint="Email" />
+	<Button android:id="@+id/btRetrievePwd" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Retrieve Password"
+		android:layout_gravity="center"/>
+	<Button android:id="@+id/btNewProfile" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="New Profile"
+		android:layout_gravity="center" android:textColor="#FFFFFF"/>
+
+</LinearLayout>

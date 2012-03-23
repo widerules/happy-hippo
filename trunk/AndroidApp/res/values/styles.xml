@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="code" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+   
+    <style name="code.red">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="myTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+  <style name="navbar_button">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:background">@drawable/navbar_backgroundselector</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+  <style name="navbar_bt" parent="@android:style/ButtonBar">
+  </style>
+</resources>
